@@ -9,7 +9,7 @@
 
 /* Global Variables */
 :root {
-    --primary-color: #014f86;
+    --primary-color: #0096c7;
     --secondary-color: #8d99ae;
     --warning-color: #ffb703;
     --danger-color: #d00000;
@@ -24,6 +24,10 @@
     outline: none;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
 }
 
 /* Container & Fluid */
@@ -1698,6 +1702,65 @@ textarea.form-control {
 .btn-group-vertical .btn:last-child {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+}
+
+/* Alert */
+.alert {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 40px;
+    height: auto;
+    border-radius: 3px;
+    padding: 18px 15px;
+}
+.alert .alert-title {
+    margin-bottom: 10px;
+}
+.alert.alert-primary {
+    background-color: rgba(0, 150, 199, .3);
+    color: rgba(0, 150, 199, 1);
+}
+.alert.alert-secondary {
+    background-color: rgba(141, 153, 174, .3);
+    color: rgba(141, 153, 174, 1);
+}
+.alert.alert-success {
+    background-color: rgba(49, 203, 0, .3);
+    color: rgba(49, 203, 0, 1);
+}
+.alert.alert-danger {
+    background-color: rgba(208, 0, 0, .3);
+    color: rgba(208, 0, 0, 1);
+}
+.alert.alert-warning {
+    background-color: rgba(255, 183, 3, .3);
+    color: rgba(255, 183, 3, 1);
+}
+.alert.alert-info {
+    background-color: rgba(137, 194, 217, .3);
+    color: rgba(137, 194, 217, 1);
+}
+.alert.alert-dark {
+    background-color: rgba(11, 9, 10, .3);
+    color: rgba(11, 9, 10, 1);
+}
+.alert .btn-alert-close {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.alert .btn-alert-close:before {
+    content: '\2716';
+    line-height: 30px;
 }
 
 /*
