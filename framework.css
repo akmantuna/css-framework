@@ -1150,6 +1150,92 @@
     padding-bottom: 50px;
 }
 
+/* Text Alignment & Wrapping And Overflow & Word Break & Transform & Font Size & Font Weight And Italic & Line Height & Decoration */
+.text-start {
+    text-align: left;
+}
+.text-end {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+.text-wrap {
+    white-space: normal;
+}
+.text-nowrap {
+    white-space: nowrap;
+}
+.text-break {
+    word-wrap: break-word;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-lowercase {
+    text-transform: lowercase;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+.fs-1 {
+    font-size: 2em;
+}
+.fs-2 {
+    font-size: 1.5em;
+}
+.fs-3 {
+    font-size: 1.17em;
+}
+.fs-4 {
+    font-size: 1em;
+}
+.fs-5 {
+    font-size: .83em;
+}
+.fs-6 {
+    font-size: .67em;
+}
+.fw-bold {
+    font-weight: bold;
+}
+.fw-bolder {
+    font-weight: bolder;
+}
+.fw-normal {
+    font-weight: normal;
+}
+.fw-lighter {
+    font-weight: lighter;
+}
+.fst-italic {
+    font-style: italic;
+}
+.fst-normal {
+    font-style: normal;
+}
+.lh-1 {
+    line-height: 13px;
+}
+.lh-sm {
+    line-height: 17px;
+}
+.lh-base {
+    line-height: 21px;
+}
+.lh-lg {
+    line-height: 24px;
+}
+.td-underline {
+    text-decoration: underline;
+}
+.td-line-through {
+    text-decoration: line-through;
+}
+.td-none {
+    text-decoration: none;
+}
+
 /*
     Every Screen CSS Codes
 */
@@ -1914,6 +2000,35 @@
     .py-sm-5 {
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    /* Text Alignment & Font Size */
+    .text-sm-start {
+        text-align: left;
+    }
+    .text-sm-end {
+        text-align: right;
+    }
+    .text-sm-center {
+        text-align: center;
+    }
+    .fs-sm-1 {
+        font-size: 2em;
+    }
+    .fs-sm-2 {
+        font-size: 1.5em;
+    }
+    .fs-sm-3 {
+        font-size: 1.17em;
+    }
+    .fs-sm-4 {
+        font-size: 1em;
+    }
+    .fs-sm-5 {
+        font-size: .83em;
+    }
+    .fs-sm-6 {
+        font-size: .67em;
     }
 }
 @media (min-width: 576px) { /* SM */
@@ -2683,6 +2798,35 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
+    /* Text Alignment & Font Size */
+    .text-md-start {
+        text-align: left;
+    }
+    .text-md-end {
+        text-align: right;
+    }
+    .text-md-center {
+        text-align: center;
+    }
+    .fs-md-1 {
+        font-size: 2em;
+    }
+    .fs-md-2 {
+        font-size: 1.5em;
+    }
+    .fs-md-3 {
+        font-size: 1.17em;
+    }
+    .fs-md-4 {
+        font-size: 1em;
+    }
+    .fs-md-5 {
+        font-size: .83em;
+    }
+    .fs-md-6 {
+        font-size: .67em;
+    }
 }
 
 @media (max-width: 991.98px) { /* LG */
@@ -3445,6 +3589,35 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
+    /* Text Alignment & Font Size */
+    .text-lg-start {
+        text-align: left;
+    }
+    .text-lg-end {
+        text-align: right;
+    }
+    .text-lg-center {
+        text-align: center;
+    }
+    .fs-lg-1 {
+        font-size: 2em;
+    }
+    .fs-lg-2 {
+        font-size: 1.5em;
+    }
+    .fs-lg-3 {
+        font-size: 1.17em;
+    }
+    .fs-lg-4 {
+        font-size: 1em;
+    }
+    .fs-lg-5 {
+        font-size: .83em;
+    }
+    .fs-lg-6 {
+        font-size: .67em;
+    }
 }
 
 @media (max-width: 1199.98px) { /* XL */
@@ -4206,5 +4379,34 @@
     .py-xl-5 {
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    /* Text Alignment & Font Size */
+    .text-xl-start {
+        text-align: left;
+    }
+    .text-xl-end {
+        text-align: right;
+    }
+    .text-xl-center {
+        text-align: center;
+    }
+    .fs-xl-1 {
+        font-size: 2em;
+    }
+    .fs-xl-2 {
+        font-size: 1.5em;
+    }
+    .fs-xl-3 {
+        font-size: 1.17em;
+    }
+    .fs-xl-4 {
+        font-size: 1em;
+    }
+    .fs-xl-5 {
+        font-size: .83em;
+    }
+    .fs-xl-6 {
+        font-size: .67em;
     }
 }
