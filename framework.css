@@ -1483,6 +1483,223 @@ textarea.form-control {
     max-height: 150px;
 }
 
+/* Button */
+.btn {
+    display: block;
+    min-width: 125px;
+    width: auto;
+    max-width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    background-color: var(--white-color);
+    font-size: 15px;
+    border: 1px var(--secondary-color) solid;
+    color: var(--dark-color);
+    cursor: pointer;
+}
+.btn:hover {
+    transition: 100ms opacity;
+    opacity: .9;
+}
+.btn.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--white-color);
+}
+.btn.btn-primary:focus {
+    transition: 50ms box-shadow;
+    box-shadow: rgba(1, 79, 104, 0.7) 0 0 0 2px, rgba(1, 79, 104, 0.75) 0 4px 6px -1px, rgba(1, 79, 104, 0.7) 0 1px 0 inset;
+}
+.btn.btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--white-color);
+}
+.btn.btn-secondary:focus {
+    transition: 50ms box-shadow;
+    box-shadow: rgba(141, 153, 174, 0.7) 0 0 0 2px, rgba(141, 153, 174, 0.75) 0 4px 6px -1px, rgba(141, 153, 174, 0.7) 0 1px 0 inset;
+}
+.btn.btn-success {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+    color: var(--white-color);
+}
+.btn.btn-success:focus {
+    transition: 50ms box-shadow;
+    box-shadow: rgba(49, 203, 0, 0.7) 0 0 0 2px, rgba(49, 203, 0, 0.75) 0 4px 6px -1px, rgba(49, 203, 0, 0.7) 0 1px 0 inset;
+}
+.btn.btn-danger {
+    background-color: var(--danger-color);
+    border-color: var(--danger-color);
+    color: var(--white-color);
+}
+.btn.btn-danger:focus {
+    transition: 50ms box-shadow;
+    box-shadow: rgba(208, 0, 0, 0.7) 0 0 0 2px, rgba(208, 0, 0, 0.75) 0 4px 6px -1px, rgba(208, 0, 0, 0.7) 0 1px 0 inset;
+}
+.btn.btn-warning {
+    background-color: var(--warning-color);
+    border-color: var(--warning-color);
+    color: var(--white-color);
+}
+.btn.btn-warning:focus {
+    transition: 50ms box-shadow;
+    box-shadow: rgba(255, 183, 3, 0.7) 0 0 0 2px, rgba(255, 183, 3, 0.75) 0 4px 6px -1px, rgba(255, 183, 3, 0.7) 0 1px 0 inset;
+}
+.btn.btn-info {
+    background-color: var(--info-color);
+    border-color: var(--info-color);
+    color: var(--white-color);
+}
+.btn.btn-info:focus {
+    transition: 50ms box-shadow;
+    box-shadow: rgba(137, 194, 217, 0.7) 0 0 0 2px, rgba(137, 194, 217, 0.75) 0 4px 6px -1px, rgba(137, 194, 217, 0.7) 0 1px 0 inset;
+}
+.btn.btn-dark {
+    background-color: var(--dark-color);
+    border-color: var(--dark-color);
+    color: var(--white-color);
+}
+.btn.btn-dark:focus {
+    transition: 50ms box-shadow;
+    box-shadow: rgba(11, 9, 10, 0.7) 0 0 0 2px, rgba(11, 9, 10, 0.75) 0 4px 6px -1px, rgba(11, 9, 10, 0.7) 0 1px 0 inset;
+}
+.btn.btn-outline-primary {
+    background-color: transparent;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+.btn.btn-outline-primary:hover {
+    transition: 150ms background-color;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.btn.btn-outline-primary:focus {
+    transition: 50ms box-shadow;
+    box-shadow: rgba(1, 79, 104, 0.7) 0 0 0 2px, rgba(1, 79, 104, 0.75) 0 4px 6px -1px, rgba(1, 79, 104, 0.7) 0 1px 0 inset;
+}
+.btn.btn-outline-secondary {
+    background-color: transparent;
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+}
+.btn.btn-outline-secondary:hover {
+    transition: 150ms background-color;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+.btn.btn-outline-secondary:focus {
+    transition: 50ms box-shadow;
+    box-shadow: rgba(141, 153, 174, 0.7) 0 0 0 2px, rgba(141, 153, 174, 0.75) 0 4px 6px -1px, rgba(141, 153, 174, 0.7) 0 1px 0 inset;
+}
+.btn.btn-outline-success {
+    background-color: transparent;
+    border-color: var(--success-color);
+    color: var(--success-color);
+}
+.btn.btn-outline-success:hover {
+    transition: 150ms background-color;
+    background-color: var(--success-color);
+    color: var(--white-color);
+}
+.btn.btn-outline-success:focus {
+    transition: 50ms box-shadow;
+    box-shadow: rgba(49, 203, 0, 0.7) 0 0 0 2px, rgba(49, 203, 0, 0.75) 0 4px 6px -1px, rgba(49, 203, 0, 0.7) 0 1px 0 inset;
+}
+.btn.btn-outline-danger {
+    background-color: transparent;
+    border-color: var(--danger-color);
+    color: var(--danger-color);
+}
+.btn.btn-outline-danger:hover {
+    transition: 150ms background-color;
+    background-color: var(--danger-color);
+    color: var(--white-color);
+}
+.btn.btn-outline-danger:focus {
+    transition: 50ms box-shadow;
+    box-shadow: rgba(208, 0, 0, 0.7) 0 0 0 2px, rgba(208, 0, 0, 0.75) 0 4px 6px -1px, rgba(208, 0, 0, 0.7) 0 1px 0 inset;
+}
+.btn.btn-outline-warning {
+    background-color: transparent;
+    border-color: var(--warning-color);
+    color: var(--warning-color);
+}
+.btn.btn-outline-warning:hover {
+    transition: 150ms background-color;
+    background-color: var(--warning-color);
+    color: var(--white-color);
+}
+.btn.btn-outline-warning:focus {
+    transition: 50ms box-shadow;
+    box-shadow: rgba(255, 183, 3, 0.7) 0 0 0 2px, rgba(255, 183, 3, 0.75) 0 4px 6px -1px, rgba(255, 183, 3, 0.7) 0 1px 0 inset;
+}
+.btn.btn-outline-info {
+    background-color: transparent;
+    border-color: var(--info-color);
+    color: var(--info-color);
+}
+.btn.btn-outline-info:hover {
+    transition: 150ms background-color;
+    background-color: var(--info-color);
+    color: var(--white-color);
+}
+.btn.btn-outline-info:focus {
+    transition: 50ms box-shadow;
+    box-shadow: rgba(137, 194, 217, 0.7) 0 0 0 2px, rgba(137, 194, 217, 0.75) 0 4px 6px -1px, rgba(137, 194, 217, 0.7) 0 1px 0 inset;
+}
+.btn.btn-outline-dark {
+    background-color: transparent;
+    border-color: var(--dark-color);
+    color: var(--dark-color);
+}
+.btn.btn-outline-dark:hover {
+    transition: 150ms background-color;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+.btn.btn-outline-dark:focus {
+    transition: 50ms box-shadow;
+    box-shadow: rgba(11, 9, 10, 0.7) 0 0 0 2px, rgba(11, 9, 10, 0.75) 0 4px 6px -1px, rgba(11, 9, 10, 0.7) 0 1px 0 inset;
+}
+.btn.btn-small {
+    height: 25px;
+    font-size: 14px;
+}
+.btn-group {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+.btn-group .btn:not(:first-child, :last-child) {
+    border-radius: 0;
+}
+.btn-group .btn:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.btn-group .btn:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.btn-group-vertical {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+.btn-group-vertical .btn:not(:first-child, :last-child) {
+    border-radius: 0;
+}
+.btn-group-vertical .btn:first-child {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.btn-group-vertical .btn:last-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
 /*
     Every Screen CSS Codes
 */
