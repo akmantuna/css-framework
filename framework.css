@@ -1236,6 +1236,14 @@
     text-decoration: none;
 }
 
+/* Visibility */
+.visible {
+    visibility: visible;
+}
+.invisible {
+    visibility: hidden;
+}
+
 /*
     Every Screen CSS Codes
 */
@@ -2029,6 +2037,14 @@
     }
     .fs-sm-6 {
         font-size: .67em;
+    }
+
+    /* Visibility */
+    .visible-sm {
+        visibility: visible;
+    }
+    .invisible-sm {
+        visibility: hidden;
     }
 }
 @media (min-width: 576px) { /* SM */
@@ -2827,6 +2843,14 @@
     .fs-md-6 {
         font-size: .67em;
     }
+
+    /* Visibility */
+    .visible-md {
+        visibility: visible;
+    }
+    .invisible-md {
+        visibility: hidden;
+    }
 }
 
 @media (max-width: 991.98px) { /* LG */
@@ -3618,6 +3642,14 @@
     .fs-lg-6 {
         font-size: .67em;
     }
+
+    /* Visibility */
+    .visible-lg {
+        visibility: visible;
+    }
+    .invisible-lg {
+        visibility: hidden;
+    }
 }
 
 @media (max-width: 1199.98px) { /* XL */
@@ -4408,5 +4440,13 @@
     }
     .fs-xl-6 {
         font-size: .67em;
+    }
+
+    /* Visibility */
+    .visible-xl {
+        visibility: visible;
+    }
+    .invisible-xl {
+        visibility: hidden;
     }
 }
