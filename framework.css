@@ -29,15 +29,30 @@
     padding: 0 10px;
 }
 
+/* Row */
+.container > .row {
+    position: relative;
+    left: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% + 20px);
+}
+
 /*
     Every Screen CSS Codes
 */
 @media (min-width: 576px) and (max-width: 575.98px) {
-
+    /* Container & Fluid */
+    .container {
+        width: 100%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 767.98px) {
-
+    /* Container & Fluid */
+    .container {
+        width: 100%;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 991.98px) {
