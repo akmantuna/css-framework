@@ -1178,6 +1178,11 @@
 .text-capitalize {
     text-transform: capitalize;
 }
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 .fs-1 {
     font-size: 2em;
 }
