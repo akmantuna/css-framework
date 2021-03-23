@@ -358,6 +358,17 @@
     flex-basis: 100%;
 }
 
+/* Float */
+.float-start {
+    float: start;
+}
+.float-end {
+    float: end;
+}
+.float-none {
+    float: none;
+}
+
 /*
     Every Screen CSS Codes
 */
@@ -680,6 +691,17 @@
     }
     .flex-sm-basis-10 {
         flex-basis: 100%;
+    }
+
+    /* Float */
+    .float-sm-start {
+        float: start;
+    }
+    .float-sm-end {
+        float: end;
+    }
+    .float-sm-none {
+        float: none;
     }
 }
 @media (min-width: 576px) { /* SM */
@@ -1007,6 +1029,17 @@
     .flex-md-basis-10 {
         flex-basis: 100%;
     }
+
+    /* Float */
+    .float-md-start {
+        float: start;
+    }
+    .float-md-end {
+        float: end;
+    }
+    .float-md-none {
+        float: none;
+    }
 }
 
 @media (max-width: 991.98px) { /* LG */
@@ -1327,6 +1360,17 @@
     .flex-lg-basis-10 {
         flex-basis: 100%;
     }
+
+    /* Float */
+    .float-lg-start {
+        float: start;
+    }
+    .float-lg-end {
+        float: end;
+    }
+    .float-lg-none {
+        float: none;
+    }
 }
 
 @media (max-width: 1199.98px) { /* XL */
@@ -1646,5 +1690,16 @@
     }
     .flex-xl-basis-10 {
         flex-basis: 100%;
+    }
+
+    /* Float */
+    .float-xl-start {
+        float: start;
+    }
+    .float-xl-end {
+        float: end;
+    }
+    .float-xl-none {
+        float: none;
     }
 }
