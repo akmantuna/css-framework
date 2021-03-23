@@ -1,6 +1,6 @@
-#CSS Framework
+# CSS Framework
 
-##Components
+## Components
 - Modal
 - Button
 - Outline Button
@@ -11,12 +11,12 @@
 - Card
 - Table (Table Striped & Table Hovered & Table Active)
 
-##Grid
+## Grid
 Has framework **.container**, **.container-full**, **.row** **.col**, **col-sm**, **col-lg**, **col-xl** classes.
 It is compatible with all screens.
 
-##Other Class
+## Other Class
 Text styles classes, flex classes, margin and padding classes, border and border radius clasess, position and top, left, bottom, right clasess, overflow class and a lot of class.
 
-##Description
+## Description
 This is a simple framework. It is open to development. It will always be actively developed by the author. The purpose of making this framework is to create a portfolio on github.
