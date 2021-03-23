@@ -1249,6 +1249,20 @@
     visibility: hidden;
 }
 
+/* Image */
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+.img-thumbnail {
+    padding: 2px;
+    background-color: #ffffff;
+    border: 1px var(--secondary-color) solid;
+    border-radius: 1px;
+    max-width: 100%;
+    height: auto;
+}
+
 /*
     Every Screen CSS Codes
 */
